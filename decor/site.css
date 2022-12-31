@@ -19,6 +19,7 @@ body {
 }
 nav {
     background-color: slategray;
+    opacity: 0.5;
     height: 80px;
     width: 100%;
 
@@ -99,11 +100,12 @@ a.active, a:hover{
     font-size: 4rem;
     top: 50%;
     transform: translateY(-50%);
-    color: lightseagreen;
+    color: #00BAFF;
     cursor: pointer;
     border-radius: .25rem;
     padding: 0 .5rem;
-    background-color: rgba(0,0,0, .05);
+    background-color: white;
+    opacity: 0.5;
     left: 1rem;
 }
 .carousel-button-next{
@@ -114,11 +116,12 @@ a.active, a:hover{
     font-size: 4rem;
     top: 50%;
     transform: translateY(-50%);
-    color: lightseagreen;
+    color: #00BAFF;
     cursor: pointer;
     border-radius: .25rem;
     padding: 0 .5rem;
-    background-color: rgba(0,0,0, .05);
+    background-color: white;
+    opacity: 0.7;
     right: 1rem;
 }
 .carousel-button-prev:hover,
@@ -126,7 +129,8 @@ a.active, a:hover{
 .carousel-button-next:hover,
 .carousel-button-next:focus {
     color: blue;
-    background-color: rgba(0,0,0, .1);
+    background-color:white;
+    opacity: 0.9;
 }
 
 h1 {
