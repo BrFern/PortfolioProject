@@ -140,4 +140,12 @@ h1 {
 
 h2 {
     text-align: center;
+    font-size: 30px;
+}
+
+table {
+    width: 75%;
+    height: 50%;
+    font-size: 24px;
+    text-align: right;
 }
