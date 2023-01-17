@@ -10,6 +10,18 @@ body {
     font-family: "Poppins";  
 }
 
+/* Making a two column display in the about me section */
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 p {
     font-size: 24px;
@@ -37,9 +49,6 @@ div {
     z-index: 1;
 }
 
-div.about_me {
-    
-}
 
 div.about_me, div.experience {
     padding: 10px;
