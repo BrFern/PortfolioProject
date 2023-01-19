@@ -10,6 +10,7 @@ body {
     font-family: "Poppins";  
     font-size: 30px;
     font-weight: 200;
+
 }
 
 /* Making a two column display in the about me section */
@@ -51,10 +52,16 @@ div {
     z-index: 1;
 }
 
+div.content_img {
+    background-color: rgba(0,0,0,0);
+    
+}
+
 
 div.about_me, div.experience {
     padding: 10px;
     margin-left: 100px;
+  
 }
 label.name{
     color: aliceblue;
@@ -208,8 +215,8 @@ table {
     -webkit-transition: visibility 0s, opacity 0.5s linear; 
     transition: visibility 0s, opacity 0.5s linear;
     width: 800px;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     
 }
 
