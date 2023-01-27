@@ -54,14 +54,13 @@ div {
 
 div.content_img {
     background-color: rgba(0,0,0,0);
-    
 }
 
 
 div.about_me, div.experience {
     padding: 10px;
     margin-left: 100px;
-  
+    text-decoration: none;
 }
 label.name{
     color: aliceblue;
@@ -188,6 +187,21 @@ table {
     height: 50%;
     font-size: 24px;
     text-align: right;
+}
+
+.accomplishments {
+    list-style-type:none;
+}
+
+.send {
+    background-color:darkblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 24px;
 }
 
 /* Making a hover effect in education section */
